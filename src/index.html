@@ -22,7 +22,7 @@
   <body>
     <div class="container">
       <section class="left-section">
-        <form class="left-container">
+        <div class="left-container">
           <div class="bill">
             <label>Bill</label>
             <input type="text" class="bill-btn" />
@@ -36,14 +36,19 @@
               <button class="btn btn-25" value="25">25%</button>
               <button class="btn btn-50" value="50">50%</button>
 
-              <input type="text" class="custom-btn" placeholder="Custom" />
+              <input
+                type="text"
+                class="custom-btn"
+                maxlength="4"
+                placeholder="Custom"
+              />
             </div>
           </nav>
           <div class="people-count">
             <label>Number of People</label>
-            <input type="text" class="people-count-btn" />
+            <input type="text" maxlength="7" class="people-count-btn" />
           </div>
-        </form>
+        </div>
       </section>
       <section class="right-section">
         <div class="right-container">
@@ -53,7 +58,7 @@
               <p>/ person</p>
             </div>
             <div class="price">
-              <h2 class="tip-amount">$0.00</h2>
+              <h2 class="tip-amount">$00.00</h2>
             </div>
           </div>
           <div class="total-container">
@@ -62,7 +67,7 @@
               <p>/ person</p>
             </div>
             <div class="price">
-              <h2 class="total-amount">$0.00</h2>
+              <h2 class="total-amount">$00.00</h2>
             </div>
           </div>
           <button class="reset-btn">RESET</button>

@@ -57,7 +57,7 @@ nav {
 input[type="text"] {
   font-weight: 700;
   color: hsl(183, 100%, 15%);
-  background-color: hsl(189, 41%, 97%);
+  background-color: #e7f5ff;
   border-radius: 3px;
   text-align: right;
   padding: 8px;
@@ -71,6 +71,7 @@ input[type="text"] {
 
 input[type="text"]:focus {
   box-shadow: inset 0 0 0 2px hsl(172, 67%, 45%);
+  background-color: hsl(189, 41%, 97%);
   position: 7px 7px;
 }
 
@@ -125,11 +126,6 @@ button {
   font-weight: 700;
 }
 
-.removed {
-  background-color: hsl(183, 100%, 15%);
-  color: hsl(0, 0%, 100%);
-}
-
 /* RIGHT SECTION */
 
 .right-section {
@@ -169,6 +165,10 @@ button {
   font-size: 10px;
   font-weight: 700;
   margin-top: 3.5rem;
+}
+
+.reset-btn:hover {
+  background-color: hsl(185, 41%, 84%);
 }
 
 /* FOOTER */
